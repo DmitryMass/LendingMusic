@@ -1,0 +1,33 @@
+$size-sm14: 14px;
+$size-sm16: 16px;
+$size-m18: 18px;
+$size-m24: 24px;
+$size-h48: 48px;
+$size-h100: 100px;
+//
+$lh-sm24: 24px;
+$lh-sm-27: 27px;
+$lh-m36: 36px;
+$lh-h72: 72px;
+$lh-h150: 150px;
+//
+// colors
+$white: white;
+$black: #1c1b21;
+$violet: #7a66cc;
+
+.h2 {
+  font-weight: bold;
+  font-size: $size-h48;
+  line-height: $lh-h72;
+  color: $white;
+  text-shadow: 4px 4px 4px #7a66cc;
+  pointer-events: none;
+}
+
+.icons {
+  margin-right: 10px;
+  margin-left: 40px;
+  font-size: 25px;
+  margin-bottom: -5px;
+}

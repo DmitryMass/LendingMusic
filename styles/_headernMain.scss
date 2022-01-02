@@ -1,0 +1,114 @@
+.header {
+  &-bgc {
+    background-image: url(../../assets/img/bgc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+  }
+  &-logo_link {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  &-logo_obj {
+    position: relative;
+    z-index: -1;
+  }
+  &-ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-menu {
+    padding-top: 40px;
+  }
+  &-link {
+    // margin: 0 5px;
+    padding: 10px 20px;
+    color: white;
+    &:hover {
+      background: $violet;
+      border-radius: 10px 0px 10px 0px;
+      transition: 0.3s ease-in-out;
+      box-shadow: 1px 1px 10px $violet;
+    }
+  }
+}
+
+//
+.main {
+  &-section {
+    margin-top: 320px;
+  }
+  &-title {
+    margin-bottom: 10px;
+
+    // pointer-events: none;
+  }
+  &-subtitle {
+    font-size: $size-h100;
+    line-height: $lh-h150;
+    color: $white;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    // pointer-events: none;
+    cursor: pointer;
+  }
+  &-sub {
+    margin-bottom: 65px;
+    animation-name: subtitle;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  &-music {
+    margin-bottom: 145px;
+  }
+  //
+  //
+  &-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-about {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    cursor: pointer;
+    &:hover > .main-hover {
+      transform: translateY(0);
+    }
+  }
+  &-hover {
+    position: absolute;
+    background-color: $violet;
+    border-radius: 20px 0px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    transform: translateY(100%);
+    transition: 0.3s ease;
+  }
+  &-img1 {
+    height: 100%;
+  }
+  &-h_txt {
+    padding: 20px;
+    color: $white;
+    font-weight: 500;
+    font-size: $size-sm16;
+    line-height: $lh-sm24;
+    opacity: 1;
+  }
+}

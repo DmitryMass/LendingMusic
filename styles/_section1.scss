@@ -1,0 +1,74 @@
+.section1 {
+  &-main {
+    padding-top: 180px;
+  }
+  &-info {
+    max-width: 540px;
+  }
+  &-h2 {
+    margin-left: 30px;
+    pointer-events: none;
+  }
+  &-p {
+    font-size: $size-sm16;
+    line-height: $lh-sm24;
+    color: $white;
+    margin-bottom: 60px;
+    opacity: 0.7;
+  }
+  &-name {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  //
+  //
+  &-img {
+    width: 350px;
+    height: 400px;
+    background-image: url(../../assets/img/transform-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px 0px;
+  }
+  &-box {
+    background-image: url(../../assets/img/transform-1.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px 0px;
+    transform: translate(-30%, -10%);
+  }
+  //
+  //
+  &-about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-block {
+    display: flex;
+    padding: 30px 0px;
+    width: 50%;
+    &:hover {
+      text-shadow: 4px 4px 4px $violet;
+      cursor: pointer;
+    }
+  }
+  &-boxes {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 0px;
+    background-color: $violet;
+    margin-right: 20px;
+  }
+  &-h3 {
+    color: $white;
+    font-weight: 600;
+    font-size: $size-m18;
+    line-height: $lh-sm-27;
+  }
+}

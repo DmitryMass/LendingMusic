@@ -1,0 +1,55 @@
+.section3 {
+  &-box {
+    padding-top: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-img {
+    background-image: url(../../assets/img/violet-baby.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 510px;
+    min-height: 510px;
+  }
+  &-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+  }
+  &-h2 {
+    margin-left: 30px;
+  }
+  &-ul {
+    margin-top: 65px;
+  }
+  &-list {
+    margin: 20px 0px;
+    color: $white;
+    font-size: $size-m18;
+    line-height: $lh-sm-27;
+    &:first-child {
+      color: $violet;
+    }
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+  &-span {
+    font-size: 14px;
+    line-height: 21px;
+    color: $white;
+    opacity: 0.5;
+    margin-right: 20px;
+    text-shadow: 4px 4px 4px #7a66cc;
+    pointer-events: none;
+  }
+  &-music_link {
+    text-shadow: 4px 4px 4px #7a66cc;
+    &:hover {
+      color: $violet;
+    }
+  }
+}
