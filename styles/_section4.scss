@@ -1,0 +1,17 @@
+.section4 {
+  &-main {
+    padding-top: 180px;
+  }
+  &-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 540px;
+    margin: 0 30px;
+  }
+  &-img_box2 {
+    margin-right: 30px;
+  }
+  &-img-box4 {
+    margin-top: 30px;
+  }
+}

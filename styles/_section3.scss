@@ -48,6 +48,8 @@
   }
   &-music_link {
     text-shadow: 4px 4px 4px #7a66cc;
+    display: inline-block;
+    color: $white;
     &:hover {
       color: $violet;
     }

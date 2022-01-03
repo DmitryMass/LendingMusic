@@ -6,6 +6,7 @@
 @import "./section2";
 @import "./section3";
 @import "./section4";
+@import "./section5";
 
 html,
 body {
@@ -46,6 +47,11 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.section4-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 // media
