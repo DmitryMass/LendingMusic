@@ -7,6 +7,7 @@
 @import "./section3";
 @import "./section4";
 @import "./section5";
+@import "./footer";
 
 html,
 body {
@@ -20,7 +21,7 @@ body {
   background-color: #1c1b21;
 }
 .main-wrap {
-  min-height: 100vh;
+  min-height: calc(100vh - 300px);
 }
 @mixin container($width) {
   max-width: $width;
@@ -33,6 +34,9 @@ body {
 }
 .container {
   @include container(1110px);
+}
+.footer-container {
+  @include container(700px);
 }
 
 /*flex-containers*/
